@@ -3,8 +3,15 @@
     <!-- head element is where meta data goes: 
     information about what's in this webpage -->
     <body>
+
+        <script> 
+            sayHello();
+            
+            loveCountry();
+        </script>
         
         <head>
+            <script src="app.js"> </script>
             <style>
         img {
             width: 450px;
@@ -30,6 +37,7 @@
             padding: 10px;
         }
         nav {
+        
             background-color: grey;
         }
             </style>
@@ -39,6 +47,7 @@
             <h1>Journey-Jolt!</h1>
         </header>
         <nav>
+          
         <ul>
             <li>
                 <a href="yourgithubusername.github.io/reading-notes/index.htm">Egypt</a>
@@ -60,22 +69,13 @@
             <h3>What country are you traveling to next?</h3>
             
         </div>
-        <script>
-      let name = prompt("What is your name?");
-      document.write("<p>Hello, " + name + "!<p>");
-      let favCountry = prompt("What is your favorite country?");
-      document.write("<p>" + name + "'s favorite country: " + favCountry + ".<p>");
-      let y_or_n = prompt("Looking for great prices? y/n");
-      if(y_or_n === 'y') {
-        document.write("<p>Check out <a href='https://expedia.com' target='_blank'>Expedia</a> for great travel deals!</p>");
-      } else {
-        document.write('OK, maybe next time. :)');
-      } 
-        </script>
+
+        
         <footer>
             Don't forget to click the links above to check out 
             3 beautiful countries!!!!!
         </footer>
+        
     </body>
 </html>
 
