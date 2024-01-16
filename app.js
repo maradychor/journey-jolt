@@ -14,3 +14,42 @@ if(y_or_n === 'yes') {
 } else {
   document.write('OK, maybe next time. :)');
 } 
+
+console.log('There are so many beautiful places to visit!');
+
+// console.log 6 times
+// This code is not DRY????
+// console.log('Hello!');
+// console.log('Hello!');
+// console.log('Hello!');
+// console.log('Hello!');
+// console.log('Hello!');
+// console.log('Hello!');
+
+for (let i = 0; i < 6; i++) {
+  console.log('hello there');
+}
+
+// for loop syntax
+let numberOfCountries = prompt('How many countries have you been to?');
+for (let i = 0; i < numberOfCountries; i++) {
+  // here goes code to be repeated.
+  document.write('<p>Hello! '+ i + '</p>');
+}
+
+let user = 'Enjoy';
+// while (!user) {
+//   user = prompt('Where too next?');
+// }
+
+// do {
+//   user = prompt('Where too next?');
+// } while(!user);
+
+// document.write("<p>" + user + "</p>");
+
+let username = 'Enjoy';
+while (username.length < 4 || username.length > 10) {
+  username = prompt('Give me a number');
+}
+
