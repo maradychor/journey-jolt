@@ -34,7 +34,7 @@ for (let i = 0; i < 6; i++) {
 let numberOfCountries = prompt('How many countries have you been to?');
 for (let i = 0; i < numberOfCountries; i++) {
   // here goes code to be repeated.
-  document.write('<p>Hello! '+ i + '</p>');
+  document.write('<p>Visit here! '+ i + '</p>');
 }
 
 let user = 'Enjoy';
