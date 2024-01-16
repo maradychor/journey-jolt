@@ -14,9 +14,3 @@ if(y_or_n === 'yes') {
 } else {
   document.write('OK, maybe next time. :)');
 } 
-
-let 1_-5_ = prompt("How many countries have you traveled too? 1-5");
-if(1_-_5 === '1-5') {
-  document.write <img src="https://www.nationalgeographic.com/content/dam/expeditions/destinations/australia-pacific/ocean/Coastal-New-Zealand/map-coastal-new-zealand.jpg.adapt.six-forty.jpg">
-
-}
