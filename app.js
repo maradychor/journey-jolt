@@ -11,22 +11,22 @@ document.write("<p>" + name + "'s favorite country: " + favCountry + ".<p>");
 let y_or_n = prompt("Looking for great prices? y/n");
 if(y_or_n === 'yes') {
   document.write("<p>Check out <a href='https://expedia.com' target='_blank'>Expedia</a> for great travel deals!</p>");
-} else {
-  document.write('OK, maybe next time. :)');
-} 
+} else 
+if(y_or_n === 'no') {
+    document.write('OK, maybe next time. :)');
+}
+  
+
 
 console.log('There are so many beautiful places to visit!');
 
-// console.log 6 times
+// console.log 3 times
 // This code is not DRY????
 // console.log('Hello!');
 // console.log('Hello!');
 // console.log('Hello!');
-// console.log('Hello!');
-// console.log('Hello!');
-// console.log('Hello!');
 
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i < 3; i++) {
   console.log('hello there');
 }
 
